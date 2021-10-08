@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table style="width:100%;">
+        <tr>
+            <td>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default3.aspx">Home</asp:HyperLink>
+            </td>
+            <td>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Default4.aspx">About us</asp:HyperLink>
+            </td>
+            <td>
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Default5.aspx">Contact us</asp:HyperLink>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+    </table>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+    </div>
+    </form>
+    
+</body>
+</html>
